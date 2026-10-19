@@ -25,3 +25,5 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
+
+// deploy trigger: rebuild with PASSWORD env var
