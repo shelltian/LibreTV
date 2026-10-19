@@ -5,6 +5,11 @@
   command = "npm run build"
   publish = ".next"
 
+[build.environment]
+  PASSWORD = "111"
+  REQUEST_TIMEOUT = "8000"
+  MAX_RETRIES = "1"
+
 # Next.js 运行时插件：让 Netlify 支持 SSR / API Routes（/api/* 采集接口依赖它）
 [[plugins]]
   package = "@netlify/plugin-nextjs"
