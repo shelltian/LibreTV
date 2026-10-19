@@ -1,0 +1,21 @@
+node_modules/
+.next/
+out/
+.env
+.env*.local
+*.tsbuildinfo
+vitest-results.json
+*.log
+
+# AI 工具产物（本机会话/缓存数据，不入库）
+.mimosa/
+.zcode/
+.codebuddy/
+generated-images/
+
+# 本地隧道/运维脚本（仅本机使用，不入库）
+bin/
+current-url.txt
+keep-tunnel.sh
+start-libretv.bat
+start-tunnel-hidden.vbs

@@ -1,0 +1,10 @@
+# Netlify 部署配置（Next.js Runtime）
+# 文档：https://docs.netlify.com/frameworks/next-js/overview/
+
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+# Next.js 运行时插件：让 Netlify 支持 SSR / API Routes（/api/* 采集接口依赖它）
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
